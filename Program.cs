@@ -5,8 +5,9 @@ namespace mtzkit_lab6
     class Program
     {
         static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
+        {            
+            const string sky = "is grey.";
+            Console.WriteLine("Hello World! the sky " + sky);
         }
     }
 }
